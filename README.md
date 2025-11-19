@@ -75,3 +75,19 @@ echo "✓ Doris BE and FE downloaded successfully!"
 
 **Source:** Apache Doris 4.0.1 official release
 **Download:** https://apache-doris-releases.oss-accelerate.aliyuncs.com/apache-doris-4.0.1-bin-x64.tar.gz
+
+## Apache Thrift 0.22.0
+
+```bash
+# Download Thrift source
+wget https://raw.githubusercontent.com/tomz-alt/doris-be-binary/master/thrift-0.22.0.tar.gz
+
+# Extract and build
+tar -xzf thrift-0.22.0.tar.gz
+cd thrift-0.22.0
+./configure
+make
+sudo make install
+```
+
+**Size:** 4.2MB (no splitting needed)
